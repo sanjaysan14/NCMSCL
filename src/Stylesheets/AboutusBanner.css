@@ -1,0 +1,35 @@
+/* About Us banner */
+  
+.AboutUs_Banner {
+    display: flex;
+    align-items: center;
+   margin-top: 60px;
+    gap: 50px;
+    padding-left: 10%;
+    justify-content: center;
+   background-color: rgb(255, 255, 255);
+    flex-direction: row;
+
+  }
+
+
+   .AboutUs_Banner_left .AboutUs_Banner_left_h1{
+font-size: 80px;
+color: #0a0a0a;
+  }
+  .AboutUs_Banner_left .AboutUs_Banner_left_h2{
+font-size: 40px;
+width: 800px;
+color: #FFD700;
+margin: 15px 0px;
+  }
+  .AboutUs_Banner_left  .AboutUs_Banner_left_h3{
+font-size: 30px;
+
+width: 900px;
+  }
+
+
+
+
+

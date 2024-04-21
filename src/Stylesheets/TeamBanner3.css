@@ -1,0 +1,73 @@
+
+.Team_Container_Info{
+    background-color: black;
+  
+    padding-top: 90px;
+   
+}
+.TeamBanner3_Head {
+   text-align: center;
+   
+   color: white;
+}
+
+.Teamates_List_Container{
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+    align-items: center;
+    justify-content: center;
+   margin-top: 50px;
+}
+
+.Teamates_List{
+    width: 300px;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+   color: white;
+    
+}
+
+.Teamates_List_Right{
+    width: 300px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: white;
+}
+
+.Teamate{
+    border-right: 10px solid #FFD700;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.Teamate_Right{
+    border-left: 10px solid #FFD700;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+.Socialmedia{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+.Sponsor{
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
+
+.Sponsor img{
+    text-align: center;
+    color: white;
+    width: 320px;
+    margin-top: -30px;
+}

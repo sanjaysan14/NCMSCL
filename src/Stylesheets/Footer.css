@@ -1,0 +1,153 @@
+.Footer_Container{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+   gap :70px;
+  padding: 60px;
+  height: 350px;
+  margin-top: 60px;
+}
+
+.Footer_Data1{
+  
+    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+
+.Footer_Data1 img{
+    width: 100px;
+}
+
+.Footer_Data1 h1{
+  color: #FFB000;
+    font-size: 30px;
+}
+
+.Footer_Data1 h3{
+    color: white;
+    font-size: 20px;
+}
+
+.Footer_h4{
+    padding:8px 10px;
+    border: none;
+    width: 180px;
+    font-weight: 600;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+
+/* Contact.css */
+
+
+.Footer_h4{
+    /* Other styles for .Footer_h4 */
+    position: relative; /* Ensure relative positioning for animation */
+  
+   
+}
+.Footer_h4 a{
+    /* Other styles for .Footer_h4 */
+    position: relative; /* Ensure relative positioning for animation */
+    text-decoration: none;
+   
+}
+
+.Footer_h4:hover::after {
+   
+    content: ""; /* Add content for pseudo-element */
+    position: absolute;
+    left: 50%; /* Start from the middle */
+    bottom: 0;
+    width: 0;
+    height: 3px; /* Border thickness */
+    background-color: #FFD700; /* Color of the border */
+    animation: borderAnimation 0.5s ease forwards; /* Apply animation */
+}
+
+@keyframes borderAnimation {
+    0% {
+        width: 0;
+        left: 50%; /* Start from the middle */
+    }
+    50% {
+        width: 100%; /* Expand to both directions */
+        left: 0; /* Move left */
+    }
+    100% {
+        width: 100%; /* Fully expanded */
+        left: 0; /* Keep it at the left */
+    }
+}
+
+
+
+
+.Footer_Data2 {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    font-weight: 800;
+  
+    color: white;
+    gap: 10px;
+    width: 120px;
+}
+.Footer_Data2_link {
+    text-decoration: none;
+}
+
+.Footer_Data3 {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    font-weight: 800;
+    color: white;
+    gap: 10px;
+    width: 160px;
+}
+.Footer_Data4_head{
+   font-size: 18px;
+    font-weight: 800;
+    color: white;
+    
+    
+}
+
+.Footer_Icons{
+    display: flex;
+    color: rgb(255, 254, 254);
+    font-size: 30px;
+    gap: 15px;
+}
+.Footer_Icons  *:hover{
+    display: flex;
+  color: #FFD700;
+    font-size: 30px;
+    gap: 15px;
+}
+
+.Map_head{
+   font-size: 17px;
+    font-weight: 800;
+    color: white;
+    
+}
+
+.Footer_Copyrights{
+    font-size: 15px;
+    text-align: center;
+   
+}
+.Footer_Copyrights span{
+    font-size: 20px;
+    text-align: center;
+    color: #FFD700;
+}

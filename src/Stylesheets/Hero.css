@@ -1,0 +1,236 @@
+body{
+  font-family: "Expletus Sans", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+}
+
+.Hero_Banner {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding-left: 15%;
+    justify-content: center;
+    background-color: #000000;
+    flex-direction: row;
+
+  }
+   
+  .Hero_right img {
+   width: 70%; /* Ensure image fits within its container */
+    
+  }
+  
+  .Hero_left h1{
+font-size: 60px;
+color: #FFD700;
+  }
+  .Hero_left h2{
+font-size: 40px;
+width: 500px;
+color: azure;
+  }
+  .Hero_left h3{
+font-size: 25px;
+color: azure;
+margin-bottom: 40px;
+  }
+ 
+
+  .mainIcons{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 40px;
+    margin-top: 50px;
+  }
+
+  a{
+    color: white;
+  }
+
+  .mainIcons > :first-child {
+    color:  #FFD700;
+  }
+
+
+
+  .Hero_btn {
+    font-size: 16px;
+    border: 2px solid #FFD700;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 10px;
+    padding: 6px 12px;
+    color: white;
+
+    cursor: pointer;
+    text-decoration: none; /* Remove underline from text */
+  }
+  
+
+  .Hero_btn:hover{
+    font-size: 16px;
+    font-weight: 600;
+    border: 2px solid #FFD700;
+    background-color: #FFD700;
+    border-radius: 10px;
+    padding: 6px 12px;
+    color: rgb(9, 9, 9);
+    margin-top: 30px;
+
+  }
+
+
+
+  @media only screen and (max-width: 768px) {
+    .Hero_Banner {
+      padding-left: 10%; /* Adjusted padding for smaller screens */
+      padding-right: 10%; /* Adjusted padding for smaller screens */
+    
+      
+    }
+    .Hero_left{
+      /* background-color: #FFD700; */
+      width :50%;
+    }
+  
+    .Hero_left h1 {
+      font-size: 30px; /* Adjusted font size for smaller screens */
+     
+    }
+  
+    .Hero_left h2 {
+      font-size: 20px; /* Adjusted font size for smaller screens */
+    
+    }
+  
+    .Hero_left h3 {
+      font-size: 16px; /* Adjusted font size for smaller screens */
+      
+    }
+  
+    .mainIcons {
+      font-size: 24px; /* Adjusted font size for smaller screens */
+      margin-top: 20px; /* Adjusted margin-top for smaller screens */
+     
+    }
+    .Hero_btn{
+      font-size: 8px;
+    border: 2px solid #FFD700;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 10px;
+    padding: 6px 12px;
+    color: white;
+   
+    }
+    
+
+       .Hero_right{
+      width: 50%;
+    }
+    .Hero_logo {
+    
+    width: 100px;
+   
+   
+    } 
+  }
+
+
+
+
+
+
+  /* About Us banner */
+
+  .Hero_Banner1 {
+    display: flex;
+    align-items: center;
+   margin-top: 60px;
+    gap: 50px;
+    padding-left: 15%;
+    justify-content: center;
+   background-color: rgb(255, 255, 255);
+    flex-direction: row;
+
+  }
+
+
+   .Hero_left .Hero_left_h1{
+font-size: 60px;
+color: #0a0a0a;
+  }
+  .Hero_left .Hero_left_h2{
+font-size: 30px;
+width: 600px;
+color: #FFD700;
+  }
+  .Hero_left  .Hero_left_h3{
+font-size: 25px;
+color: #FFD700;
+width: 600px;
+  }
+
+
+  .Aboutus_btn{
+    font-size:16px;
+    border: 2px solid #FFD700;
+    background-color: #FFD700;
+    border-radius: 15px;
+    padding: 12px 24px;
+    color: white;
+    font-weight: 600;
+    margin-top: 20px;
+    text-decoration: none;
+  }
+  .Aboutus_btn:hover{
+    font-size:16px;
+    border: 3px solid #FFD700;
+    background-color: rgba(255, 228, 196, 0);
+    border-radius: 15px;
+    padding: 12px 24px;
+    color: black;
+    font-weight: 600;
+  }
+
+
+
+
+/* Carousel  */
+
+.HeroCarousel_Banner{
+  margin-top: -80px;
+}
+
+.C_head{
+  background-color: #000000;
+  height: 300px;
+}
+
+.C_Content{
+ color: #f9f9f8;
+ 
+align-items: center;
+margin: 100px 50px 150px 350px;
+}
+.C_Content h1{
+  color: #FFD700;
+}
+
+.C_Content p{
+  font-size: 25px;
+  width :75%;
+}
+
+.C_Trophy{
+  position: relative;
+  top: 330px;
+  z-index: 1;
+}
+
+.C_Sports{
+  position: relative;
+  top: 80px;
+  right: 200px;
+}

@@ -1,0 +1,68 @@
+.upcoming-events {
+  margin-top: 60px;
+  overflow: hidden;
+  background-image: url("../Images//EventBanner.png");
+  height: 600px;
+  
+  
+}
+.upcomming-event-head{
+    margin:5% 0px 15px 15%;
+    font-size: 60px;
+    color: white;
+}
+
+.upcomming-event-para{
+    font-size: 30px;
+    color: white;
+    width: 70%;
+    margin-left: 15%;
+}
+
+  
+  .marquee-container {
+    white-space: nowrap;
+    animation: marquee 30s linear infinite;
+    margin-top: 6%;
+   
+  }
+  .marquee-container1 {
+    white-space: nowrap;
+    animation: marquee1 30s linear infinite;
+    margin-top: 3%;
+   
+  }
+  
+  .event {
+    display: inline-block;
+    margin-right: 20px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+   
+  }
+  
+
+  .paused {
+    animation-play-state: paused;
+  }
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  @keyframes marquee1 {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+  
+
+  

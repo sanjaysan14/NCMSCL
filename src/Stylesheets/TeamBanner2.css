@@ -1,0 +1,68 @@
+.Team_Container{
+    background-color: black;
+}
+.TeamBanner2_Container {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+   margin-left: 15%;
+   
+    
+  }
+
+  .TeamBanner2_Cards:nth-child(even) {
+    margin-top: 100px;
+  }
+  
+  .TeamBanner2_Cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+    width: 70%;
+   
+  }
+  
+  .TeamBanner2_Card1 {
+    /* -webkit-box-shadow: -0.5px 4px 12px 0 #dddddd;
+    -moz-box-shadow: -0.5px 4px 12px 0 #dddddd; 
+    box-shadow: -0.5px 4px 12px 0 #dddddd; */
+    background-color: white;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: center;
+  }
+
+
+  
+  .TeamBanner2_Card1.selected {
+    /* -webkit-box-shadow: -0.5px 4px 12px 0 #dddddd;
+-moz-box-shadow: -0.5px 4px 12px 0 #dddddd;
+box-shadow: -0.5px 4px 12px 0 #dddddd; */
+width :250px;
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: #FFA500;
+padding: 10px;
+border-radius: 10px;
+justify-content: center;
+color: whitesmoke;
+}
+
+.img_FF{
+    width: 180px;
+}
+
+.TeamBanner2_Card1 h4{
+font-size: 20px;
+color: #FFD700;
+}
+
+.TeamBanner2_Card1 h1{
+font-size: 20px;
+
+}

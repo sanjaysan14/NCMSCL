@@ -1,0 +1,87 @@
+/* Contact.css */
+.Contact_Banner{
+    width: 70%;
+    margin:60px 0px 0px  15%;
+}
+
+.Contact_head{
+    font-size: 60px;
+}
+.Contact_Container{
+    display: flex;
+    flex-direction: row;
+    -webkit-box-shadow: 1.5px 3px 8px 2.5px #dddddd;
+-moz-box-shadow: 1.5px 3px 8px 2.5px #dddddd;
+box-shadow: 1.5px 3px 8px 2.5px #dddddd;
+border-radius: 10px;
+height: 500px;
+}
+
+.Contact_Right{
+margin:10px auto
+}
+.Contact_Right img{
+margin-left: 20%;
+
+}
+.Contact_Left img{
+    height: 500px;
+    width: 550px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.TextArea{
+
+   resize:none;
+   height: 80px;
+}
+
+/* Text inputs */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid transparent; /* Transparent border */
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f8f8f8;
+    color: #444;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Transition for border color and box-shadow */
+}
+
+/* On focus */
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: #6c63ff; /* Change border color on focus */
+    box-shadow: 0 0 5px rgba(108, 99, 255, 0.5); /* Add box-shadow on focus */
+    outline: none;
+}
+
+/* Submit button */
+button[type="submit"] {
+    background-color: #6c63ff;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+/* On hover */
+button[type="submit"]:hover {
+    background-color: #574fff;
+}
+
+

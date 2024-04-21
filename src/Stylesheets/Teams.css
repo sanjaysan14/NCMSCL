@@ -1,0 +1,94 @@
+.Team_Banner{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 60px;
+}
+.Team_head{
+    font-size: 60px;
+}
+
+.Teams{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    margin-top: 20px;
+}
+
+
+.Team_List
+{
+display: flex;
+flex-direction: column;
+ width: 240px;
+border-radius: 10px;
+-webkit-box-shadow: 0.5px 3px 19px 3.5px #dddddd;
+-moz-box-shadow: 0.5px 3px 19px 3.5px #dddddd;
+box-shadow: 0.5px 3px 19px 3.5px #dddddd;
+align-items: center;
+height: 260px;
+position: relative;
+}
+
+.Team_List img{
+    width: 180px;
+    margin-top: 18px;
+    transition: transform .2s; /* Animation */
+}
+
+
+
+.Team_List:hover img{
+    width: 180px;
+    margin-top: 18px;
+    transform: scale(1.1);
+}
+.Team_List h1{
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+
+.Team_btn{
+ background-color: #FFD700;
+ border: none;padding: 8px 14px;
+ border-radius: 8px;
+ position: relative;
+ top: 0px;
+ text-decoration: none;
+}
+
+
+
+  
+  .team-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.577);
+    opacity: 0;
+    transition: opacity 0.3s;
+    border-radius: 10px;
+  }
+  
+  .Team_List:hover .team-info {
+    opacity: 1;
+  }
+  
+  .team-name {
+    margin-bottom: 10px;
+  }
+  
+  .Team_btn {
+    display: none;
+  }
+  
+  .Team_List:hover .Team_btn {
+    display: block;
+  }
+  

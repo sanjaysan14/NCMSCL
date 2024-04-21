@@ -1,0 +1,81 @@
+body{
+    font-family: "Expletus Sans", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+  }
+  
+  .Team_Banner1 {
+      display: flex;
+      align-items: center;
+      gap: 100px;
+      padding-left: 15%;
+      justify-content: center;
+      background-color: #000000;
+      flex-direction: row;
+  
+    }
+    
+   
+    
+    .Team_Banner1_right img {
+     width: 75%; /* Ensure image fits within its container */
+      
+    }
+    
+    .Team_Banner1__left h1{
+  font-size: 60px;
+  color: #FFD700;
+    }
+    .Team_Banner1__left h2{
+  font-size: 40px;
+  width: 600px;
+  color: azure;
+  margin: 20px 0px;
+    }
+    .Team_Banner1__left h3{
+  font-size: 25px;
+  color: azure;
+  width: 600px;
+ 
+    }
+   
+  
+    .mainIcons{
+      color: white;
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+      font-size: 40px;
+      margin-top: 50px;
+
+
+    }
+    .mainIcons  *:hover{
+      color: #FFD700;
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+      font-size: 40px;
+    
+
+    
+    
+    }
+  
+    .mainIcons > :first-child {
+      color:  #FFD700;
+    }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
