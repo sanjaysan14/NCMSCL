@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/Ncmscl/static/css/main.eaecddc1.css",
+    "main.js": "/Ncmscl/static/js/main.a7cac473.js",
+    "static/media/aboutvi.mp4": "/Ncmscl/static/media/aboutvi.36d9c15e635f3c67ea6f.mp4",
+    "static/media/EventBanner.png": "/Ncmscl/static/media/EventBanner.23696188178998abfdbc.png",
+    "static/media/Contactimg.png": "/Ncmscl/static/media/Contactimg.23b21957ec275aace784.png",
+    "static/media/leaguelogo.png": "/Ncmscl/static/media/leaguelogo.9df62fd65fbd537626d6.png",
+    "static/media/leaguelogo1.png": "/Ncmscl/static/media/leaguelogo1.8955084f78bdb70a3ed9.png",
+    "static/media/GI5.png": "/Ncmscl/static/media/GI5.38113652de4f1e701fe7.png",
+    "static/media/EE.png": "/Ncmscl/static/media/EE.6bdbab43a7a13a81a48c.png",
+    "static/media/ContactMail.gif": "/Ncmscl/static/media/ContactMail.cc13b2bdaddaf6e2de09.gif",
+    "static/media/RE.png": "/Ncmscl/static/media/RE.a2becf929962181c9ad4.png",
+    "static/media/LL.png": "/Ncmscl/static/media/LL.bb311ae5f52755867dbb.png",
+    "static/media/GI4.png": "/Ncmscl/static/media/GI4.e71175a1a56b01eaa52f.png",
+    "static/media/NCMSC.png": "/Ncmscl/static/media/NCMSC.4fe9ac3f869d3ec57aac.png",
+    "static/media/CC.png": "/Ncmscl/static/media/CC.ca31ad0a7eff2408038c.png",
+    "static/media/FearlessFalcons.png": "/Ncmscl/static/media/FearlessFalcons.1ac42efd093fe8f15749.png",
+    "static/media/GI1.png": "/Ncmscl/static/media/GI1.59de005ad75ec308efe4.png",
+    "static/media/GI6.png": "/Ncmscl/static/media/GI6.59de005ad75ec308efe4.png",
+    "static/media/TT.png": "/Ncmscl/static/media/TT.cc67f9f810749477adf4.png",
+    "static/media/DD.png": "/Ncmscl/static/media/DD.2f83f7578970981ae379.png",
+    "static/media/GI2.png": "/Ncmscl/static/media/GI2.a9750289d2d68be54fef.png",
+    "static/media/aboutimg.png": "/Ncmscl/static/media/aboutimg.050ca558a107118ce7d6.png",
+    "static/media/Ncms.png": "/Ncmscl/static/media/Ncms.663a49d31f5ee56b1c16.png",
+    "static/media/GI3.png": "/Ncmscl/static/media/GI3.33ab98c85220376037e8.png",
+    "static/media/FFSponsor.png": "/Ncmscl/static/media/FFSponsor.b6eadbd7e9e788083d9d.png",
+    "static/media/teamlogo.png": "/Ncmscl/static/media/teamlogo.46783402679ad0ded200.png",
+    "static/media/GG1.png": "/Ncmscl/static/media/GG1.61ac63b4d6fb9164ea8a.png",
+    "static/media/Trophy.png": "/Ncmscl/static/media/Trophy.71fd9a81d7a84f2c3300.png",
+    "index.html": "/Ncmscl/index.html",
+    "main.eaecddc1.css.map": "/Ncmscl/static/css/main.eaecddc1.css.map",
+    "main.a7cac473.js.map": "/Ncmscl/static/js/main.a7cac473.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eaecddc1.css",
+    "static/js/main.a7cac473.js"
+  ]
+}
