@@ -24,28 +24,20 @@ export const TeamBanner1 = () => {
             personal growth.
           </h3>
 
-          <div className="mainIcons">
+          <div className="mainIcons3">
             <a href="https://www.instagram.com/ncms_championship_league?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
-              <FontAwesomeIcon className="Icon4" icon={faInstagram} bounce />
+              <FontAwesomeIcon className="Icon4" icon={faInstagram} />
             </a>
             <a href="">
-              <FontAwesomeIcon
-                className="Icon1"
-                icon={faFacebookSquare}
-                bounce
-              />
+              <FontAwesomeIcon className="Icon1" icon={faFacebookSquare} />
             </a>
             <a href="">
               {" "}
-              <FontAwesomeIcon
-                className="Icon2"
-                icon={faSquareXTwitter}
-                bounce
-              />
+              <FontAwesomeIcon className="Icon2" icon={faSquareXTwitter} />
             </a>
             <a href="">
               {" "}
-              <FontAwesomeIcon className="Icon3" icon={faLinkedin} bounce />
+              <FontAwesomeIcon className="Icon3" icon={faLinkedin} />
             </a>
           </div>
         </div>

@@ -31,51 +31,52 @@ export const Navbar = () => {
         <div className="Navbar_Toggle" onClick={toggleMenu}>
           <FontAwesomeIcon icon={isOpen ? faXmark : faSliders} />{" "}
         </div>
-
-        <ul className={`Navbar ${isOpen ? "open" : ""}`}>
-          <li>
-            <Link
-              to="/"
-              onClick={() => handleItemClick("/")}
-              style={{ borderTop: activeItem === "/" && "3px solid #FFD700" }}
-            >
-              Home
-            </Link>
-          </li>
-          <li>
-            <Link
-              to="/about"
-              onClick={() => handleItemClick("/about")}
-              style={{
-                borderTop: activeItem === "/about" && "3px solid #FFD700",
-              }}
-            >
-              About Us
-            </Link>
-          </li>
-          <li>
-            <Link
-              to="/teams"
-              onClick={() => handleItemClick("/teams")}
-              style={{
-                borderTop: activeItem === "/teams" && "3px solid #FFD700",
-              }}
-            >
-              Teams
-            </Link>
-          </li>
-          <li>
-            <Link
-              to="/gallery"
-              onClick={() => handleItemClick("/gallery")}
-              style={{
-                borderTop: activeItem === "/gallery" && "3px solid #FFD700",
-              }}
-            >
-              Gallery
-            </Link>
-          </li>
-        </ul>
+        <div>
+          <ul className={`Navbar ${isOpen ? "open" : ""}`}>
+            <li>
+              <Link
+                to="/"
+                onClick={() => handleItemClick("/")}
+                style={{ borderTop: activeItem === "/" && "3px solid #FFD700" }}
+              >
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/about"
+                onClick={() => handleItemClick("/about")}
+                style={{
+                  borderTop: activeItem === "/about" && "3px solid #FFD700",
+                }}
+              >
+                About Us
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/teams"
+                onClick={() => handleItemClick("/teams")}
+                style={{
+                  borderTop: activeItem === "/teams" && "3px solid #FFD700",
+                }}
+              >
+                Teams
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/gallery"
+                onClick={() => handleItemClick("/gallery")}
+                style={{
+                  borderTop: activeItem === "/gallery" && "3px solid #FFD700",
+                }}
+              >
+                Gallery
+              </Link>
+            </li>
+          </ul>
+        </div>
         <div className="logo">
           <img className="Nav_logo" src={ClgLOGO} alt="" />
         </div>

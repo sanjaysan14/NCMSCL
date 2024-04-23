@@ -63,6 +63,40 @@
       transform: translateX(100%);
     }
   }
+
+
+  @media only screen and (max-width: 768px) {
+    .upcoming-events {
+      height: auto; /* Remove fixed height to allow content to expand */
+      padding: 30px 0; /* Add padding to top and bottom */
+      background-size: cover; /* Adjust background image size */
+      background-position: center; /* Center the background image */
+    }
+  
+    .upcomming-event-head {
+      font-size: 40px; /* Decrease font size for smaller screens */
+      margin: 5% 0 15px 5%; /* Adjust margin for smaller screens */
+    }
+  
+    .upcomming-event-para {
+      font-size: 20px; /* Decrease font size for smaller screens */
+      width: 90%; /* Adjust width for smaller screens */
+      margin-left: 5%; /* Adjust margin for smaller screens */
+    }
+  
+    .marquee-container,
+    .marquee-container1 {
+      margin-top: 3%; /* Adjust margin for smaller screens */
+    }
+  
+    .event {
+      margin-right: 10px; /* Decrease margin between events for smaller screens */
+      margin-bottom: 10px; /* Add margin bottom to separate events */
+      padding: 8px; /* Adjust padding for smaller screens */
+      font-size: 16px; /* Decrease font size for smaller screens */
+    }
+  }
+  
   
 
   

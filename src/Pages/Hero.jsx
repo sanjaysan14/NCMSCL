@@ -20,10 +20,10 @@ export const Hero = () => {
           <h2>Championship League</h2>
           <h3>A League that Creates Leaders</h3>
           {/* Use Link to navigate to the About page */}
-          <Link to="/about" className="Hero_btn">
+          <Link to="/about" className="Hero_btn1">
             Know More
           </Link>
-          <div className="mainIcons">
+          <div className="mainIcons1">
             <a href="https://www.instagram.com/ncms_championship_league?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
               <FontAwesomeIcon className="Icon4" icon={faInstagram} bounce />
             </a>
@@ -53,14 +53,14 @@ export const Hero = () => {
         </div>
       </div>
       {/* ----About us ------  */}
-      <div className="Hero_Banner1">
+      <div className="Hero_Banner11">
         <div className="Hero_left">
-          <h1 className=" Hero_left_h1">About Us</h1>
-          <h2 className="Hero_left_h2">
+          <h1 className=" Hero_left_h11">About Us</h1>
+          <h2 className="Hero_left_h22">
             At NCMS Championship League A, we believe in cultivating leaders who
             shape the future.
           </h2>
-          <h3 className="Hero_left_h3">
+          <h3 className="Hero_left_h33">
             We are a premier organization dedicated to nurturing leadership
             skills among postgraduate students,
           </h3>

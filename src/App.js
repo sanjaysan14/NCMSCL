@@ -6,6 +6,7 @@ import { About } from './Pages/About';
 import { Team } from './Pages/Team';
 import { GalleryPage } from './Pages/GalleryPage';
 
+
 function ScrollToTop() {
   const { pathname } = useLocation();
 

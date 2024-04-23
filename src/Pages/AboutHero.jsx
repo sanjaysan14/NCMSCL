@@ -30,7 +30,7 @@ export const AboutHero = () => {
           <Link to="/Teams" className="Hero_btn">
             View Teams
           </Link>
-          <div className="mainIcons">
+          <div className="mainIcons1">
             <a href="https://www.instagram.com/ncms_championship_league?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
               <FontAwesomeIcon className="Icon4" icon={faInstagram} bounce />
             </a>

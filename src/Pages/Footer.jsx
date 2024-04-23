@@ -22,11 +22,14 @@ export const Footer = () => {
             <div>
               <a href="https://www.instagram.com/ncms_championship_league?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
                 {" "}
-                <FontAwesomeIcon className="Icon4" icon={faInstagram} bounce />
+                <FontAwesomeIcon className="Icon5" icon={faInstagram} bounce />
               </a>
             </div>
             <div>
-              <a href="https://www.instagram.com/ncms_championship_league?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+              <a
+                className="Icon5"
+                href="https://www.instagram.com/ncms_championship_league?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+              >
                 {" "}
                 <h4>Follow Us</h4>
               </a>
@@ -51,7 +54,7 @@ export const Footer = () => {
         </div>
         <div>
           <ul className="Footer_Data3">
-            <li>Contact Info</li>
+            <li>Contact </li>
             <h6>0987544355</h6>
             <h6>98765567678</h6>
           </ul>
@@ -65,7 +68,7 @@ export const Footer = () => {
             <FontAwesomeIcon className="Icon3" icon={faLinkedin} />
           </div>
         </div>
-        <div>
+        <div className="Map_container">
           <h1 className="Map_head">Reach Us</h1>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7763.928728510767!2d77.728078!3d13.352492!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb1ef0cae80db87%3A0xed7cec0dda7e1c1f!2sNagarjuna%20College%20of%20Management%20Studies!5e0!3m2!1sen!2sin!4v1713200884234!5m2!1sen!2sin"

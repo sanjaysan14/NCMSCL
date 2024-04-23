@@ -42,7 +42,7 @@ body{
     }
    
   
-    .mainIcons{
+    .mainIcons1{
       color: white;
       display: flex;
       flex-direction: row;
@@ -51,7 +51,7 @@ body{
       margin-top: 50px;
     }
   
-    .mainIcons > :first-child {
+    .mainIcons1 > :first-child {
       color:  #FFD700;
     }
   
@@ -65,6 +65,7 @@ body{
       padding: 6px 12px;
       color: white;
       margin-top: 30px;
+      text-decoration: none;
   
     }
     .Hero_btn:hover{
@@ -82,37 +83,53 @@ body{
   
   
     @media only screen and (max-width: 768px) {
-      .Hero_Banner {
+      .About_Hero_Banner {
         padding-left: 10%; /* Adjusted padding for smaller screens */
         padding-right: 10%; /* Adjusted padding for smaller screens */
       
         
       }
-      .Hero_left{
-        /* background-color: #FFD700; */
-        width :50%;
+      .About_Hero_Banner .About_left{
+        
+        width :100%;
+        margin: 30px 0px 0px 10px;
       }
     
-      .Hero_left h1 {
-        font-size: 30px; /* Adjusted font size for smaller screens */
+      .About_left h1 {
+        font-size: 40px; 
        
       }
     
-      .Hero_left h2 {
-        font-size: 20px; /* Adjusted font size for smaller screens */
+      .About_left h2 {
+        font-size: 20px; 
+        width: 100%;
       
       }
     
-      .Hero_left h3 {
-        font-size: 16px; /* Adjusted font size for smaller screens */
-        
+     
+      .About_left  h3 {
+        font-size: 16px; 
+        width: 100%;
       }
     
-      .mainIcons {
-        font-size: 24px; /* Adjusted font size for smaller screens */
-        margin-top: 20px; /* Adjusted margin-top for smaller screens */
-       
+      .About_left  .mainIcons1 a {
+        font-size: 25px; 
+        color: white;
+   
       }
+      .About_left  .mainIcons1 a:hover {
+        font-size: 25px; 
+        color:  #FFD700;
+   
+      }
+
+      .About_left .mainIcons1 > :first-child {
+        color:  #FFD700;
+      }
+    
+    
+
+     
       .Hero_btn{
         font-size: 8px;
       border: 2px solid #FFD700;
@@ -127,12 +144,24 @@ body{
          .Hero_right{
         width: 50%;
       }
+
       .Hero_logo {
       
       width: 100px;
      
      
       } 
+
+      .Hero_btn{
+        font-size: 16px;
+      border: 2px solid #FFD700;
+      background-color: rgba(255, 255, 255, 0);
+      border-radius: 10px;
+      padding: 6px 12px;
+      color: white;
+      margin-top: 30px;
+      text-decoration: none;
+      }
     }
   
   

@@ -57,7 +57,7 @@
     /* Other styles for .Footer_h4 */
     position: relative; /* Ensure relative positioning for animation */
     text-decoration: none;
-   
+   color: white;
 }
 
 .Footer_h4:hover::after {
@@ -95,13 +95,12 @@
     flex-direction: column;
     list-style: none;
     font-weight: 800;
-  
-    color: white;
     gap: 10px;
     width: 120px;
 }
 .Footer_Data2_link {
     text-decoration: none;
+    color: white;
 }
 
 .Footer_Data3 {
@@ -150,4 +149,113 @@
     font-size: 20px;
     text-align: center;
     color: #FFD700;
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* Footer_Container */
+    .Footer_Container {
+        padding: 40px; /* Adjust padding for smaller screens */
+        margin-top: 20px; /* Adjust margin for smaller screens */
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        height: 80%;
+      
+      
+    }
+
+    .Footer_Data1{
+  
+    
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        margin-left: 30px;
+    
+    }
+
+    .Icon5{
+        font-size: 25px;
+    }
+   
+    /* Footer_Data1 */
+    .Footer_Data1 img {
+        width: 60px; 
+    }
+
+    .Footer_Data1 h1 {
+        font-size: 20px; /* Further decrease font size for smaller screens */
+    }
+
+    .Footer_Data1 h3 {
+        font-size: 14px; /* Further decrease font size for smaller screens */
+    }
+
+    /* Footer_h4 */
+    .Footer_h4 {
+        font-size: 16px; /* Further decrease font size for smaller screens */
+    }
+
+    .Footer_Data4{
+    margin-left: 30px;
+    }
+
+   /* Footer_Data2 */
+.Footer_Container .Footer_Data2 {
+    font-size: 14px; 
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 300px;
+    margin-top: 20px;
+}
+
+/* Footer_Data3 */
+.Footer_Data3 {
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-weight: 800;
+    color: white;
+    gap: 10px;
+    width: 300px;
+    margin-top: 20px;
+    
+}
+
+
+    /* Footer_Data4_head */
+    .Footer_Data4_head {
+        font-size: 14px; /* Decrease font size for smaller screens */
+    }
+
+    /* Footer_Icons */
+    .Footer_Icons {
+        font-size: 20px; 
+        display: flex;
+        color: rgb(255, 254, 254);
+        justify-content: flex-start; /* Align icons to the left */
+        gap: 15px;
+    }
+    
+    .Footer_Icons *:hover {
+        font-size: 20px; 
+    }
+
+    .Map_container{
+        margin-left: 30px;
+    }
+
+    /* Map_head */
+    .Map_head {
+        font-size: 14px; 
+        margin-top: 20px;
+    }
+
+    /* Footer_Copyrights */
+    .Footer_Copyrights {
+        font-size: 12px; /* Decrease font size for smaller screens */
+    }
 }

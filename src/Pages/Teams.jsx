@@ -12,10 +12,10 @@ import { Link } from "react-router-dom";
 export const Teams = () => {
   return (
     <>
-      <div className="Team_Banner">
+      <div className="Team_Banner3">
         <h1 className="Team_head">Teams</h1>
 
-        <div className="Teams">
+        <div className="Teams1">
           <div className="Team_List">
             <img src={FalconLogo} alt="Falcons Logo" />
 
@@ -57,7 +57,7 @@ export const Teams = () => {
             </div>
           </div>
         </div>
-        <div className="Teams">
+        <div className="Teams1">
           <div className="Team_List">
             <img src={RE} alt="Falcons Logo" />
 

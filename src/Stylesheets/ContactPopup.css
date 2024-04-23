@@ -8,6 +8,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 1;
   }
   
   .popup-content {
@@ -68,3 +69,23 @@ width: 100%;
     padding: 8px 16px;
     color: rgb(1, 1, 1);
   }
+
+
+  @media (max-width: 768px) {
+    .Contact_Container_Popup {
+        flex-direction: column; /* Stack content vertically on smaller screens */
+    }
+    .Contact_Left_Popup
+  {
+    display: none;
+  }
+    .Contact_Left_Right {
+        border-radius: 10px; /* Ensure rounded corners on all sides */
+        width: 100%; /* Full width for smaller screens */
+    }
+    .Contact_Left_Right img {
+        margin-left: 30%; /* Reset margin for smaller screens */
+    }
+}
+
+ 
